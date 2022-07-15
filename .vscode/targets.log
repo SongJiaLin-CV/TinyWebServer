@@ -1,0 +1,369 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 15 16:21:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+UPSTART_INSTANCE = 
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/jialinsong/.Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /home/jialinsong/Documents/CppProject/TinyWebServer
+# makefile
+SHELL = /bin/sh
+# environment
+UPSTART_JOB = unity7
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from 'makefile', line 3)
+DEBUG = 1
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+SESSIONTYPE = gnome-session
+# makefile (from 'makefile', line 5)
+CXXFLAGS = -g
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-nsf2ofQNP9
+# environment
+UNITY_DEFAULT_PROFILE = unity
+# environment
+CLUTTER_IM_MODULE = xim
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/jialinsong
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/jialinsong/bin:/home/jialinsong/.local/bin:/home/jialinsong/bin:/home/jialinsong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+UNITY_HAS_3D_SUPPORT = true
+# environment
+GPG_AGENT_INFO = /home/jialinsong/.gnupg/S.gpg-agent:0:1
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+SESSION = ubuntu
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/jialinsong
+# environment
+LS_COLORS = 
+# environment
+JOB = unity-settings-daemon
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 31181
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+PWD = /home/jialinsong/Documents/CppProject/TinyWebServer
+# environment
+QT_QPA_PLATFORMTHEME = appmenu-qt5
+# environment
+XDG_SEAT = seat0
+# environment
+GDM_LANG = en_US
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = Unity
+# environment
+GTK_MODULES = gail:atk-bridge:unity-gtk-module
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/jialinsong
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jialinsong/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+LOGNAME = jialinsong
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 7
+# environment
+LC_TIME = zh_CN.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# environment
+SHLVL = 1
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+COMPIZ_CONFIG_PROFILE = ubuntu
+# environment
+XDG_SESSION_ID = c2
+# environment
+USER = jialinsong
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := server
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+UPSTART_EVENTS = xsession started
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GNOME_KEYRING_PID = 
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-7b86745e-1.69.1-main.sock
+# environment
+GNOME_KEYRING_CONTROL = 
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = zh_CN.UTF-8
+# environment
+GTK2_MODULES = overlay-scrollbar
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+COMPIZ_BIN_PATH = /usr/bin/
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+UPSTART_SESSION = unix:abstract=/com/ubuntu/upstart-session/1000/1883
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 1)
+CXX = g++
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# environment
+INSTANCE = 
+# environment
+LC_ALL = C
+# environment
+QT4_IM_MODULE = fcitx
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 31181
+# variable set hash-table stats:
+# Load=121/1024=12%, Rehash=0, Collisions=13/150=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 946931): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+ 
+http/http_conn.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+server: main.cpp timer/lst_timer.cpp http/http_conn.cpp log/log.cpp CGImysql/sql_connection_pool.cpp webserver.cpp config.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 12):
+	$(CXX) -o server  $^ $(CXXFLAGS) -lpthread -lmysqlclient
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-15 16:19:36.841640485
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+timer/lst_timer.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+CGImysql/sql_connection_pool.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+log/log.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+config.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	rm  -r server
+
+# Not a target:
+webserver.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/30=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 32 / storage = 319 B / avg = 9 B
+# current buf: size = 8162 B / used = 319 B / count = 32 / avg = 9 B
+
+# strcache performance: lookups = 41 / hit rate = 21%
+# hash-table stats:
+# Load=32/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Fri Jul 15 16:21:06 2022
+
+ 
